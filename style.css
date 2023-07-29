@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: beige;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+}
+
+.xbox {
+  width: 50vw;
+  height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1604586376807-f73185cf5867?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transform: width;
+  transition: width 0.5s ease;
+}
+
+.playstation {
+  width: 50vw;
+  height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1507457379470-08b800bebc67?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1209&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transform: width;
+  transition: width 0.5s ease;
+}
+
+.container1 {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(73, 73, 73, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container2 {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  background-color: rgba(63, 153, 35, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.content {
+  text-align: center;
+}
+
+.title {
+  margin: 5px;
+  font-size: 50px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.buy {
+  cursor: pointer;
+  border: none;
+  width: 150px;
+  height: 35px;
+  background-color: #ed117b;
+  color: beige;
+  font-size: 20px;
+  padding: 5px;
+  font-weight: 600;
+}
+
+.buy:hover {
+  background-color: #e23e8d;
+}
